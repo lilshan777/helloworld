@@ -9,7 +9,7 @@
     text-shadow: 2px 2px black;
     font-family: "Rowdies", cursive;
     letter-spacing: 0.5rem;
-    /* animation-name: grow;
+    /*animation-name: grow;
     animation-duration: 3s; */
   }
 
@@ -19,8 +19,8 @@
     text-shadow: 2px 2px white;
     font-size: 2rem;
     font-weight: bold;
-    animation-name: shrink;
-    animation-duration: 4s;
+    /*animation-name: shrink;
+    animation-duration: 4s; */
   }
 
   body {
@@ -91,8 +91,8 @@
 
     @keyframes grow {
       from {
-        font-size: 1rem;
-        letter-spacing: 3rem;
+        font-size: 0.5rem;
+        letter-spacing: 4rem;
       }
       to {
         font-size: 3.5rem;
