@@ -9,8 +9,8 @@
     text-shadow: 2px 2px black;
     font-family: "Rowdies", cursive;
     letter-spacing: 0.5rem;
-    animation-name: grow;
-    animation-duration: 3s;
+    /* animation-name: grow;
+    animation-duration: 3s; */
   }
 
   h2 {
@@ -62,39 +62,17 @@
     color: inherit;
   }
 
-  @keyframes grow {
-    from {
-      font-size: 1rem;
-      letter-spacing: 3rem;
-    }
-    to {
-      font-size: 2.5rem;
-      letter-spacing: 0.5rem;
-    }
-  }
-
-  @keyframes shrink {
-    from {
-      color: white;
-      text-shadow: 5px 5px rgb(35, 175, 145);
-      font-size: 3rem;
-    }
-    to {
-      color: black;
-      text-shadow: 2px 2px white;
-      font-size: 2rem;
-    }
-  }
-
   @media (min-width: 800px) {
     h1 {
       font-size: 3.5rem;
+      animation-name: grow;
+      animation-duration: 4s;
     }
 
     h2 {
       font-size: 2.5rem;
       animation-name: shrink;
-      animation-duration: 4s;
+      animation-duration: 3s;
     }
 
     @keyframes shrink {
@@ -109,8 +87,19 @@
         font-size: 2.5rem;
       }
     }
+
+    @keyframes grow {
+      from {
+        font-size: 1rem;
+        letter-spacing: 3rem;
+      }
+      to {
+        font-size: 3.5rem;
+        letter-spacing: 0.5rem;
+      }
+    }
     .footer img {
-      padding-top: 1rem;
+      padding-top: 1.5rem;
       height: 3rem;
       width: 3rem;
     }
