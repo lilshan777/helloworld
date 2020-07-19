@@ -16,7 +16,7 @@
   }
 
   body {
-    background: url(./bg.png) no-repeat center/cover;
+    background: url("https://i.ibb.co/cx0XbFz/bg.png") no-repeat center/cover;
   }
 
   .links img {
@@ -28,13 +28,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3rem;
+
     height: 80vh;
   }
   .flexbox img {
-    height: 8rem;
-    width: 9rem;
-    border-radius: 10rem;
+    height: 10rem;
+
+    border-radius: 4rem;
   }
   .links {
     display: flex;
