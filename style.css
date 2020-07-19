@@ -13,7 +13,7 @@
     text-shadow: 2px 2px white;
     font-size: 2rem;
     font-weight: bold;
-   /* animation-name: shrink;
+    /* animation-name: shrink;
     animation-duration: 4s; */
   }
 
@@ -37,12 +37,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 25%;
-    border-top: 5px dotted white;
+    border-top: 4px dotted white;
     padding-bottom: 3rem;
   }
   .footer img {
-    padding: .3rem;
+    padding: 0.3rem 0.2rem 0 0.2rem;
     height: 2rem;
     width: 2rem;
   }
@@ -54,7 +56,7 @@
     color: inherit;
   }
 
-/* h2 animation
+  /* h2 animation
 
   @keyframes shrink {
     from {
@@ -67,8 +69,6 @@
       text-shadow: 2px 2px white;
       font-size: 2rem;
     }
-  }
+  
+  }*/
 }
-
-
-*/
