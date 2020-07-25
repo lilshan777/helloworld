@@ -75,7 +75,7 @@
       animation-name: shrink;
       animation-duration: 3s;
     }
-
+/*
     @keyframes shrink {
       from {
         color: white;
@@ -98,7 +98,7 @@
         font-size: 3.5rem;
         letter-spacing: 0.5rem;
       }
-    }
+    } */
     .footer img {
       padding-top: 1.5rem;
       height: 3rem;
